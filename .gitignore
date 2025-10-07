@@ -24,7 +24,6 @@ ENV/
 Thumbs.db
 
 # Data and models
-data/raw/
 data/processed/
 models/
 reports/
@@ -33,11 +32,12 @@ reports/
 *.csv
 *.xlsx
 
-# DVC
-*.dvc
-.cache/
-.dvc/tmp/
+# DVC:
+# ignore dvc cache and tmp, but NOT the .dvc dir and .dvc files
 .dvc/cache/
+.dvc/tmp/
+!.dvc
+!*.dvc
 
 # IDE / editor
 .vscode/
