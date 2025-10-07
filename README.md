@@ -16,7 +16,7 @@
 ---
 
 ## 📊 Данные
-
+- Название: Loan Default Prediction Dataset
 - Источник: [Kaggle](https://www.kaggle.com/datasets/nikhil1e9/loan-default)
 - Объем: более 255 тысяч записей  
 - Целевая переменная: Default (Флаг выхода в дефолт (0/1))
@@ -44,6 +44,7 @@
 
 ---
 
+```text
 ## ⚙️ Структура проекта
 ├── data/
 │ ├── raw/ # исходные данные
@@ -57,7 +58,7 @@
 ├── .pre-commit-config.yaml
 ├── .github/workflows/ci.yml
 └── README.md
-
+```
 
 ---
 
