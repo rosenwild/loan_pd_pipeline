@@ -66,8 +66,8 @@
 
 ### 1. Клонировать репозиторий
 ```bash
-git clone https://github.com/<username>/<repo>.git
-cd <repo>
+git clone https://github.com/rosenwild/loan_pd_pipeline.git
+cd loan_pd_pipeline
 ```
 
 ### 2. Создать окружение и установить зависимости 
