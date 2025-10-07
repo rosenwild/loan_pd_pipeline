@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+.notebooks/
+
+# Virtual env
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Data and models
+data/raw/
+data/processed/
+models/
+reports/
+*.joblib
+*.pkl
+*.csv
+*.xlsx
+
+# DVC
+*.dvc
+.cache/
+.dvc/tmp/
+.dvc/cache/
+
+# IDE / editor
+.vscode/
+.idea/
