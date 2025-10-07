@@ -70,10 +70,17 @@ git clone https://github.com/<username>/<repo>.git
 cd <repo>
 ```
 
-### 2. Создать окружение и установить зависимости
+### 2. Создать окружение и установить зависимости 
+#### Для Windows
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # или .venv\Scripts\activate (Windows)
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+#### Для macOS/Linux
+```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -84,7 +91,7 @@ dvc pull
 
 ### 4. Запустить пайплайн
 ```bash
-python src/train.py
+dvc repro
 ```
 
 ### 5. Запустить тесты и линтеры
